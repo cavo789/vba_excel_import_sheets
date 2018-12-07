@@ -1,3 +1,5 @@
+![Banner](images/banner.jpg)
+
 # Excel - Import sheets
 
 ## Situation
@@ -10,13 +12,12 @@ The file is probably corrupt but it would be really nice if you can retrieve (im
 
 The VBA code below will try to :
 
-* open the workbook (called `wb`)
-* if success,
-	* create a new workbook (called `wbNew`)
-	* loop for all worksheets in `wb`
-		* copy the sheet into `wbNew`
-	* close `wb`
-	* activate `wbNew` so you can verify, ... and save it.
+- open the workbook (called `wb`)
+- if success,
+  _ create a new workbook (called `wbNew`)
+  _ loop for all worksheets in `wb`
+  _ copy the sheet into `wbNew`
+  _ close `wb` \* activate `wbNew` so you can verify, ... and save it.
 
 This VBA piece of code will only do that : try to retrieve worksheets so willn't retrieve modules, settings, names, charts, ...
 
