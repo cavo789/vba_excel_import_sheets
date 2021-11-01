@@ -1,6 +1,6 @@
-![Banner](images/banner.jpg)
-
 # Excel - Import sheets
+
+![Banner](./banner.svg)
 
 ## Situation
 
